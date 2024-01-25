@@ -1,37 +1,33 @@
-# RMAFF_PSN_master
+## RMAFF-PSN: A Residual Multi-Scale Attention Feature FusionPhotometric Stereo Network
 
-#### 介绍
-RMAFF-PSN: A Residual Multi-Scale Attention Feature Fusion Photometric Stereo Network
+**Author:** 
+Kai Luo, Yakun Ju, Lin Qi, Kaixuan Wang and Junyu Dong
 
-#### 软件架构
-软件架构说明
+## Getting Started
 
+Coming Soon!
 
-#### 安装教程
+## Results on the DiLiGenT benchmark dataset:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+We have provided the estimated surface normals and error maps on the DiLiGenT benchmark dataset, in document ``Results''
 
-#### 使用说明
+## Acknowledgement:
+Our code is partially based on: https://github.com/guanyingc/PS-FCN, https://github.com/Kelvin-Ju/MF-PSN.<br>
+We are grateful for the help of Guanying Chen(https://guanyingc.github.io/),<br> Satoshi Ikehata(https://satoshi-ikehata.github.io/),<br> and Yakun Ju(https://kelvin-ju.github.io/yakunju/) in academic research.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Citation
 
-#### 参与贡献
+If you find our work useful, please consider citing our paper:
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+```bibtex
+@inproceedings{luo2023rmaff,
+  title={RMAFF-PSN: A Residual Multi-Scale Attention Feature Fusion Photometric Stereo Network},
+  author={Luo, Kai and Ju, Yakun and Qi, Lin and Wang, Kaixuan and Dong, Junyu},
+  booktitle={Photonics},
+  volume={10},
+  number={5},
+  pages={548},
+  year={2023},
+  organization={MDPI}
+}
+```

@@ -1,0 +1,14 @@
+ballPNG：2.177
+bearPNG(96)：7.533
+buddhaPNG：7.709
+catPNG：4.636
+cowPNG：7.499
+gobletPNG：8.255
+harvestPNG：12.231
+pot1PNG：5.521
+pot2PNG：6.331
+readingPNG：9.462
+ave：7.1354
+
+bearPNG(76)：4.998
+Corrected mean value：6.8819
