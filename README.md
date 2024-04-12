@@ -5,7 +5,16 @@ Kai Luo, Yakun Ju, Lin Qi, Kaixuan Wang and Junyu Dong
 
 ## Getting Started
 
-Coming Soon!
+#### Train RMAFF-PSN
+```shell
+# Train RMAFF-PSN on both synthetic datasets using 32 images-light pairs
+CUDA_VISIBLE_DEVICES=0 python main.py --concat_data --in_img_num 32 --normalize --item normalize
+```
+
+#### Test RMAFF-PSN on the DiLiGenT main dataset
+```shell
+CUDA_VISIBLE_DEVICES=0 python eval/run_model.py --retrain data/Training/normalize/train/check_26.pth.tar --in_img_num 96 --normalize --train_img_num 32
+```
 
 ## Results on the DiLiGenT benchmark dataset:
 
