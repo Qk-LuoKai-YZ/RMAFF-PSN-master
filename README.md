@@ -5,7 +5,7 @@ Kai Luo, Yakun Ju, Lin Qi, Kaixuan Wang and Junyu Dong
 
 ## Getting Started
 
-#### Train RMAFF-PSN
+#### Train RMAFF-PSN on the Blobby and Sculpture dataset
 ```shell
 # Train RMAFF-PSN on both synthetic datasets using 32 images-light pairs
 CUDA_VISIBLE_DEVICES=0 python main.py --concat_data --in_img_num 32 --normalize --item normalize
